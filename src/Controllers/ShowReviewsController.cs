@@ -6,7 +6,7 @@ using NetflixReviewService.Services.Interfaces;
 namespace NetflixReviewService.Controllers
 {
     [ApiController]
-    [Route("[controller]/{showId}/reviews")]
+    [Route("[controller]/{showId}")]
     public class ShowReviewsController : ControllerBase
     {
         private readonly IShowService _showService;
